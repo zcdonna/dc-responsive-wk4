@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Donna's SheCodes Portfolio</title>
+    <meta
+      name="description"
+      content="Donna is a front-end developer based in the US"
+    />
+    <title>Front-End Developer - Donna</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -32,19 +36,24 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img src="img/donna.jpeg" class="logo d-none d-md-block" alt="" />
+        <a href="/" title="Homepage">
+          <img
+            src="img/donna.jpeg"
+            class="logo d-none d-md-block"
+            alt="Donna Logo"
+        /></a>
         <ul>
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Donna">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="Donna's Work">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Donna">Contact</a>
           </li>
         </ul>
       </nav>
@@ -130,7 +139,9 @@
             <p class="text-muted">Let's work together!</p>
           </div>
           <div class="mt-4">
-            <a href="" class="btn-branding">Contact me</a>
+            <a href="mailto:donna.c@shecode.io" class="btn-branding"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-3">
